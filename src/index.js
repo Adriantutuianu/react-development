@@ -22,4 +22,10 @@ ReactDOM.render(
 // </p>
 // This would become Hello JSX.
 
+/*Yes, JSX (Javascript XML) is a Javascript expression. You need to wrap the expression within the curly brackets ( { } )
+You may not use ‘if else’ statements inside the JSX. Instead, you can use ‘ternary expression’.
+<h1> { val==1? ‘True’: ‘False’ } </h1>
+The above is an example of the ternary expression. If the value of ‘val’ variable is one, then the result is true, else false.
+*/
+
 reportWebVitals();
