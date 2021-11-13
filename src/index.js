@@ -11,21 +11,11 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-// JSX, camelCase
-// onchange attribute in HTML will be onChange in JavaScript
-// onclick attribute in HTML will be onClick in JavaScript
-
-// To fix the problem of vertical spacing, explicitly add white space as follows.
-//  <p>
-// 	Hello
-// 	{ ‘ ‘ } JSX
-// </p>
-// This would become Hello JSX.
-
-/*Yes, JSX (Javascript XML) is a Javascript expression. You need to wrap the expression within the curly brackets ( { } )
-You may not use ‘if else’ statements inside the JSX. Instead, you can use ‘ternary expression’.
-<h1> { val==1? ‘True’: ‘False’ } </h1>
-The above is an example of the ternary expression. If the value of ‘val’ variable is one, then the result is true, else false.
+/*
+First, What is a state in React?
+In React JS, the state is an instance of the React Component Class.
+Remember, the state is limited to the current component only!
+A state is an object that controls the behavior of the React Component. A component can initialize the state and update it when required.
 */
 
 reportWebVitals();
