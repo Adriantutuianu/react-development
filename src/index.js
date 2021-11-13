@@ -12,13 +12,13 @@ ReactDOM.render(
 );
 
 /*
-Props are read-only and immutable. They are used in customizing the React component while creating it.
-If you want some immutable data in your React Component, add the props to the ReactDOM.render() method. Then use it inside the component.
-Props make the React component more dynamic and more reusable. It is advised to use the camelCase formatting while you create your own React props.
-Props are a common way of passing the data from the parent to the child component.
-With props, you can pass the custom data to your React component.
-The major purpose of the props in React is to provide the component diverse functionalities.
-Props will also allow you to trigger the ‘state’ changes. We will later learn about ‘state’ in detail.
+A good strategy to pass all the props from the parent component to the child component is through the use of JavaScript spread operator.
+This spread operator is a powerful feature in React JS. This feature comes from JavaScript.
+The props spreading is used in spreading a whole object with the key value pairs down to the child React component.
+The spread operator will have the same effect as passing each value of the object on its own to the component.
+The syntax of the spread operator is easy and is less prone to errors.
+In addition, the JavaScript spread operator offers a great level of flexibility to React JS.
+You need not change the name of the props or add the props in the intermediate component.
 */
 
 reportWebVitals();
