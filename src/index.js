@@ -12,10 +12,9 @@ ReactDOM.render(
 );
 
 /*
-First, What is a state in React?
-In React JS, the state is an instance of the React Component Class.
-Remember, the state is limited to the current component only!
-A state is an object that controls the behavior of the React Component. A component can initialize the state and update it when required.
-*/
+Stateful React components are always Class Components!
+These components have a state. The state should be initialized in the constructor.
+You shouldn't stop with just this initialization of the state. That will not help you create an interactive user interface.
+You need to update the state. Updating the states will allow you to create a highly responsive and interactive React JS application.*/
 
 reportWebVitals();
