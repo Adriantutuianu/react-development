@@ -12,14 +12,13 @@ ReactDOM.render(
 );
 
 /*
-setState() is the legit way to update the state of the React Component.
-The state of the component needs to be updated as a response to the event handlers.
-setState() adds the changes to the state of the component.
-It then tells React that the component and its children need to be re-rendered, now with the updated state.
-The general syntax of the setState() function is setState (nextState[, callback]).
-The first parameter is nextState(Object). The Object that contains the new state to merge with the current state value.
-The second parameter is callback function[optional].
-If this parameter is provided as a second argument to setState(), the callback function will be executed once the setState has been done.
+Another major difference between the props and state is that the props are set by the parent component.
+Props set by the parent component are then used by the child components.
+When the user presses a key or performs a mouse click, the state of the component is changed.
+In a React component, the props are the variables which get passed to it by its parent Components.
+But State is still the variable that gets directly initialized and managed by the React component.
+
+
 
 
 */
