@@ -24,7 +24,8 @@ Some mandatory form fields are username and password details.
 Validating the forms can be handled using the handleChange method.
 You will access the old and the new value of the state.
 Then you need to check the new value and if found invalid, reject the updated new value. In addition, communicate this scenario to the user.
-
+onChange: This event gets fired whenever there is some change in any of the input element on the form.
+onChange is the widely used event during the validation of the form.
 
 */
 
