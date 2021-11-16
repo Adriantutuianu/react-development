@@ -13,16 +13,10 @@ ReactDOM.render(
 
 /*
 
-The Synthetic events also ensure high performance to the React applications.
-How do synthetic events achieve high performance?
-The performance is achieved automatically using the Event Delegation.
-Event delegation is a technique for listening to events where the parent element is delegated as the listener.
-The parent element is chosen as the listener for all the events that happen within it. A single event listener is attached to the root of the document.
-
-What is Event Binding? What are the different ways of performing the event binding?
-Event binding tells the browser a particular function needs to be called when the event gets triggered.
-When we don't bind the event handler method with the component instance, the context will be lost.
-
+Some of the interesting Keyboard events in React JS includes onKeyDown, onKeyPress and onKeyup.
+onKeyDown event is called whenever a key is depressed by the user.
+onKeyPress gets called after the key is released by the user before onKeyup gets triggered.
+onKeyUp is called at the last, once the key is pressed by the user.
 
 */
 
