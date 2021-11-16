@@ -12,12 +12,15 @@ ReactDOM.render(
 );
 
 /*
-React JS implements a synthetic event system.
-This event system brings a high level of consistency.
-You can find different events across different browsers and platforms.
-We need a normalized event system to design the event handlers.
-We need a normalized event system to design the event handlers.
-The synthetic event offers consistency. It is achieved by normalizing all the events that have the same properties.
+
+The Synthetic events also ensure high performance to the React applications.
+How do synthetic events achieve high performance?
+The performance is achieved automatically using the Event Delegation.
+Event delegation is a technique for listening to events where the parent element is delegated as the listener.
+The parent element is chosen as the listener for all the events that happen within it. A single event listener is attached to the root of the document.
+
+
+
 */
 
 reportWebVitals();
